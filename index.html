@@ -32,7 +32,7 @@
       <nav aria-label="Main Site Links.">
         <ul class="nav-list">
           <li class="nav-item1"><a href='index.html'><img
-                src='https://raw.githubusercontent.com/Rezlen/Portfolio-Projects/main/images/Rez-Pic.jpg'></a></li>
+                src='https://raw.githubusercontent.com/Rezlen/Portfolio-Projects/main/images/Rez-Pic.jpg' alt="Rez Pic"></a></li>
           <li class="nav-item"><a href='https://rezlen.github.io/Portfolio-Projects/index.html'
               title="Find Out About All Businesses Here">Home</a></li>
           <!--TITLE acts as a tooltip HOWEVER; <span class= "TooltipContent" >Tooltip text</span> a kind of tooltip is SPAN tooltip, check the css page's explanation-->
@@ -128,18 +128,18 @@
         <!--ContactUs FORM from here-->
         <form method="get" action="https://submit-form.com/VlSB85Xy">
           <input class="field" required="yes" type="text" name="First Name field">
-          <label class="label-field" required="yes" alt="First Name Section" placeholder="First Name"></label>
+          <label class="label-field" required="yes" alt="First Name Section" placeholder="First Name" aria-label="FirstName"></label>
           <!--/*The word for "alt" sits as the placeholder then if anything typed, the actual PLACEHOLDER moves on the field's line-->
 
           <input class="field" required="yes" type="text" name="Last Name field">
-          <label class="label-field" required="yes" alt="Last Name Section" placeholder="Last Name"></label>
+          <label class="label-field" required="yes" alt="Last Name Section" placeholder="Last Name" aria-label="LastName"></label>
 
           <input class="field" required="yes" type="text" name="Email Address field">
-          <label class="label-field" required="yes" alt="Email Address Section" placeholder="Email Address"></label>
+          <label class="label-field" required="yes" alt="Email Address Section" placeholder="Email Address" aria-label="EmailAddress"></label>
 
           <textarea class="field CommentFiled" required="yes" type="text" name="Comment field"></textarea>
           <label class=" label-field" id="CommentLabel" required="yes" alt="Comment Section"
-            placeholder="Comment"></label>
+            placeholder="Comment" aria-label="CommentArea"></label>
           <button class="FormSubmitBTN" type="submit">Submit</button>
 
         </form>
